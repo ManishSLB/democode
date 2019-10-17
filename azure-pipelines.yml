@@ -1,4 +1,12 @@
 # Starter pipeline
+- task: RunFromALM@1
+  inputs:
+    varAlmserv: 'https://saphpalm.itt.slb.com/qcbin/'
+    varUserName: 'mdalal'
+    varPass: 'Dec@2019mani'
+    varDomain: 'ITT_SAP'
+    varProject: 'ITT_SAP_Automation_TCoE'
+    varTestsets: 'TESTVSTS'
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
