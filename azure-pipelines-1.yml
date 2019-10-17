@@ -1,4 +1,7 @@
 # Starter pipeline
+- task: RunFromFileSystemTask@1
+  inputs:
+    testPathInput: 'C:\Users\mdalal\OneDrive - Schlumberger\PCAutomationFramework\PCDriverOld'
 
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
@@ -17,6 +20,7 @@ steps:
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
+    Settings
     - task: RunFromALM@1
     inputs:
     varAlmserv: 'https://saphpalm.itt.slb.com/qcbin/'
